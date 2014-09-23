@@ -1,0 +1,139 @@
+
+
+
+/* Loading */
+.double-bounce1, .double-bounce2{
+    background-color: rgba(0,0,255,0.5);
+
+}
+
+/* Navigation */
+.navigation > li:hover > a,.navigation > li > a:hover,
+.navigation > li > .activelink,.navigation > li:hover > a > i, .navigation > li > a:hover > span.label-nav-sub::before, .navigation > li > a:focus > span.label-nav-sub::before{
+    color: blue;
+}
+.mobile-menu-button, .mobile-nav, .slider-fixed-container{   
+    background-color: blue;    
+}
+
+.navigation > li > a:after, .navigation>li>.activelink:after{
+    background-color: blue;
+}
+.navigation>li:hover > a > span.label-nav-sub::before,.navigation>li:hover> a > span.label-nav-sub::before{
+    color: blue;
+}
+
+
+/* Page Content Colors */
+.body-wrapper a:hover , .tab a:hover, accordion .title:hover, .top-body a:hover, .bottom-body a:hover
+,.accordion .active h4, .accordion .title:hover h4, .side-navigation .menu-item.current-menu-item a, .side-navigation .menu-item:hover a:after,
+.side-navigation .menu-item:hover a, a.tool-tip, .team-member .team-member-position, .team-member-progress .team-member-position, .item-img-overlay i
+,ul.icon-content-list-container li.icon-content-single .icon-box i,.item-img-overlay .portfolio-zoom:hover, .navigation ul li:hover>a, .blog_post_quote:after,
+.item-img-overlay .portfolio-zoom, body .white-text .feature-details a:hover{
+    color: blue;
+}
+::selection
+{
+    background-color:blue;
+}
+::-moz-selection
+{
+    background-color:blue;
+}
+.item-img-overlay  .portfolio-zoom:hover, .tab a.active {
+    color: blue !important;
+}
+.callout-box{
+    border-left-color: blue}
+.feature .feature-content,.team-member .team-member-content{
+    border-top-color: blue;
+}
+
+.progress .progress-bar{
+    background-color: blue;
+}
+.blog-masonry .blog_post_quote{
+    border-top: 2px solid blue;
+}
+.tab a.active:after {
+    background-color:blue;
+    border-color: blue;
+}
+.blog-post .blog-post-type,.subscribe-button{
+    background: blue;
+}
+.blog-post-details-item.blog-post-details-item-right a:hover i,.blog_post_quote .quote-author,.pagination > li > a.prev, 
+.pagination > li > a.next, .pagination > li > a:hover, .pagination > li > a.current,.testimonial-by-name{
+    color: blue;
+}
+.skin-text{
+    color: blue !important;
+}
+body .section-content.section-image{
+    background-color: rgba(39,159,187,0.6);
+}
+.item-img-overlay .item_img_overlay_content{
+    background: blue;
+}
+.button, .body-wrapper input[type="submit"], .body-wrapper input[type="button"], .section-content.section-color-bg,.content-box.content-style4 h4 i
+,button.button-main,.body-wrapper .tags a:hover,.callout-box.callout-box2, .blog-search .blog-search-button, .top-title-wrapper, .testimonial-big,
+.content-style3:hover .content-style3-icon, table.table thead tr, .price-table .price-label-badge, .price-table .price-table-header, .section-subscribe .subscribe-button.icon-envelope-alt{
+    background-color: blue;
+}
+.btn.btn-flat{
+    background-color: blue;
+}
+.rev-slider-full .button.btn-flat, .rev-slider-fixed .button.btn-flat{
+    background-color: blue;
+}
+.btn, input[type="submit"], input[type="button"], button.btn,.btn-primary{
+    background-color: blue;
+}
+.btn:hover, input[type="submit"]:hover, input[type="button"]:hover, button.btn:hover,.btn-primary:hover{
+    background-color: blue;
+
+}
+.btn:focus, input[type="submit"]:focus, input[type="button"]:focus, button.btn:focus,.btn-primary:focus{
+    background-color: blue;
+}
+.blog-post-icon,.comments-list .children .comment:before,.portfolio-filter li a.portfolio-selected, 
+.portfolio-filter li a:hover, .dropcaps.dropcaps-color-style, .carousel-container .carousel-icon:hover,
+.team-member-image.img-overlay .item_img_overlay_content{
+    background-color: blue;
+}
+.comments-list .children .comment:after{
+    border-color: transparent transparent transparent blue;;
+}
+
+.highlighted-text{
+    background-color: blue;
+    color: #ffffff;
+}
+.icons-list.colored-list li:before, .blog-post-date .day, .blog-post-date .month, strong.colored, span.colored 
+,.content-style3 .content-style3-icon, .content-box h4 i{
+    color: blue;
+}
+.content-box.content-style2 h4 i,.content-box.style5 h4 i{
+    border-color: blue;
+    color: blue;
+}
+.content-box.content-style2:hover i,.content-box.style5:hover i{
+    background-color: blue;
+}
+.pagination .prev, .pagination .next, .pagination a:hover, .pagination a.current, .price-table .price-label{
+    color: blue;
+}
+
+
+/* Footer Area Colors */
+
+.footer .copyright{
+    border-color: blue;
+}
+
+.flickr_badge_wrapper .flickr_badge_image img:hover{
+    border-color: blue;
+}
+
+
+

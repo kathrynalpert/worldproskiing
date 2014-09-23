@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <title>World Pro Skiing Foundation</title>
+  <%= stylesheet_link_tag  'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/ie-fixes.js"></script>
+  <link rel="stylesheet" href="css/ie-fixes.css">
+  <![endif]-->
+
+  <meta name="description" content="The world pro skiing foundation is a non-profit organization dedicated to preserving the history of World Pro Skiing and the future of dual-format racing through youth skiing and racing programs">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <%= google_webfonts_init({
+    google: ['Open Sans', 'Raleway']
+  }) %>
+
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/respond.js"></script>
+  <![endif]-->
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="top_wrapper">
+      <%=render "layouts/top_bar"%>
+      <%=render "layouts/navigation"%>
+
+      <%if params[:controller] == "pages" && params[:action] == "home"%>
+        <%=render "layouts/rev_slider"%>
+      <%end%>        
+    </div><!--.top wrapper end -->
+
+    <div class="loading-container">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+    <%=yield%>
+    
+    <footer>
+      <div class="footer">
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 center-text">
+                <div class="copyright-text">&copy; <%=Date.today.year%> World Pro Skiing Foundation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- wrapper end -->
+</body>
+</html>
