@@ -37,4 +37,4 @@ gem 'google-webfonts-rails'
 
 #heroku
 gem 'rails_12factor', group: :production
-gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets', group: :development
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
