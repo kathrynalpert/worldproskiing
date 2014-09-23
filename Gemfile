@@ -36,5 +36,6 @@ gem 'spring',        group: :development
 gem 'google-webfonts-rails'
 
 #heroku
+gem 'unicorn'
 gem 'rails_12factor', group: :production
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
