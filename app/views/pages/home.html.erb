@@ -18,9 +18,9 @@
               ligula. Nunc commodo lacinia eros ac condimentum
 
               <div>
-                <a href="#" class=" btn btn-sm">
+                <%=link_to root_path(anchor:"history"), class:"btn btn-sm" do %>
                   <span>read more</span>
-                </a>
+                <%end%>
               </div>
 
             </div>
@@ -43,9 +43,9 @@
               ligula. Nunc commodo lacinia eros ac condimentum
 
               <div>
-                <a href="#" class=" btn btn-sm">
+                <%=link_to about_path(anchor:"mission"), class:"btn btn-sm" do %>
                   <span>read more</span>
-                </a>
+                <%end%>
               </div>
 
             </div>
@@ -68,9 +68,9 @@
               ligula. Nunc commodo lacinia eros ac condimentum
 
               <div>
-                <a href="#" class=" btn btn-sm">
+                <%=link_to about_path(anchor:"strategy"), class:"btn btn-sm" do %>
                   <span>read more</span>
-                </a>
+                <%end%>
               </div>
 
             </div>
@@ -93,9 +93,9 @@
               ligula. Nunc commodo lacinia eros ac condimentum
 
               <div>
-                <a href="#" class=" btn btn-sm">
+                <%=link_to donate_path, class:"btn btn-sm" do %>
                   <span>read more</span>
-                </a>
+                <%end%>
               </div>
 
             </div>
@@ -560,7 +560,7 @@
              data-animrepeat="0"
              data-speed="1s"
              data-delay="0.4s">
-            <h2 class="h2-section-title">Our History</h2>
+            <a name="history"><h2 class="h2-section-title">Our History</h2></a>
 
             <div class="i-section-title">
               <i class="icon-files">
