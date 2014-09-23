@@ -39,3 +39,4 @@ gem 'google-webfonts-rails'
 gem 'unicorn'
 gem 'rails_12factor', group: :production
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+gem 'newrelic_rpm'
