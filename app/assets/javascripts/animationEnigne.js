@@ -11,6 +11,7 @@ function animator() {
         var el = $(this);
         //console.log( elements[i] , i );
         if (el.visible(true)) {
+        //if (el.aboveTheFold()) {
             if (el.data('animtype') == 'animate-progress') {
 
                 el.css('opacity', 1);
@@ -102,8 +103,14 @@ $(window).scroll(function(event) {
                 compareTop = partial === true ? _bottom : _top,
                 compareBottom = partial === true ? _top : _bottom;
 
-        return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+        return ((compareBottom <= viewBottom+50) && (compareTop >= viewTop));
 
+    };
+    
+    $.fn.aboveTheFold = function() {
+      var threshold = $(this).hasClass("progress-bar") ? 0 : 100;
+      var fold = $(window).height() + $(window).scrollTop();
+      return fold >= $(this).offset().top-threshold;
     };
 
 
