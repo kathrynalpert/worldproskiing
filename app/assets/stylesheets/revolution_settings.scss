@@ -548,8 +548,12 @@ website:   	http://www.themepunch.com
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .rev-slider-full .button.btn-flat, .rev-slider-fixed .button.btn-flat 
+  
     .rev-slider-full .button,
-    .rev-slider-fixed .button {
+    .rev-slider-fixed .button,
+    .rev-slider-full .button.btn-flat, 
+    .rev-slider-fixed .button.btn-flat {
         padding: 4px 8px 3px;
         line-height: 25px !important;
         font-size: 11px !important;
@@ -590,7 +594,9 @@ website:   	http://www.themepunch.com
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
     .rev-slider-full .button,
-    .rev-slider-fixed .button {
+    .rev-slider-fixed .button,
+    .rev-slider-full .button.btn-flat, 
+    .rev-slider-fixed .button.btn-flat {
         padding: 2px 5px 2px;
         line-height: 20px !important;
         font-size: 10px !important;

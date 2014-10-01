@@ -2533,7 +2533,7 @@ Content Box
 .content-box.content-style4 {
     position: relative;
     text-align: center;
-    height: 105px;
+    height: 120px;
     width: 100%;
 }
 .content-box.content-style4 h4 {
@@ -6318,6 +6318,19 @@ Team member
 
 .team-member .team-member-overlay-content a.icon-pinterest {
     color: #cb2027;
+}
+
+.team-member-short-bio{
+  text-align:left;
+}
+.team-member-short-bio ul{
+  padding-left:20px;
+}
+.team-member-short-bio ul li{
+  color:blue;
+}
+.team-member-short-bio ul li span{
+  color:#666666;
 }
 
 /* Hover Action */

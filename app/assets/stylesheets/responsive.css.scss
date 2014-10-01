@@ -877,7 +877,7 @@
         padding: 4px 9px;
         background-color: #279fbb;
         position: absolute;
-        top: 55px;
+        top: 35px;
         right: 15px;
         color: #fff;
         cursor: pointer;
@@ -930,7 +930,7 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        color: #fff;
+        //color: #fff;
         outline: none;
     }
 
@@ -1008,6 +1008,14 @@
     .mobile-nav .label-nav-sub {
         display: none !important;
     }
+    
+    .logo img{
+      height: 55px;
+    }
+    .sticky-header .header .logo img {
+      height: 35px;
+    }
+    
 }
 
 @media (min-width: 975px)
