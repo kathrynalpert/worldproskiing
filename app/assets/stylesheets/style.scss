@@ -2201,6 +2201,10 @@ ul.clients-list li:hover, ul.bottom-body-clients li:hover {
 
 ul.section-clients {
     text-align: center;
+    margin-bottom:40px;
+}
+.tab-content ul.section-clients {
+  margin-bottom:0;
 }
 
 ul.section-clients li {
@@ -3707,16 +3711,18 @@ Sticky Menu
 }
 
 .top-bar .social-icons .social-media-icon {
-    background-color: transparent;
+    //background-color: transparent;
     height: 35px;
     border: none;
     margin: 0;
-    background-position: 0 -43px;
+    //background-position: 0 -43px;
+    background-position: 0 -3px;
 }
 
 .top-bar .social-icons .social-media-icon:hover {
     border: none;
-    background-position: 0 -3px;
+    background-position: 0 -43px;
+    //background-position: 0 -3px;
 }
 
 .top-bar .social-icons li {
@@ -5660,7 +5666,9 @@ Social icons
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #e8e8e8;
+    //border: 1px solid #e8e8e8;
+    background-color: #3b5998;
+    border: 1px solid #2d4373;
 }
 .social-icons .facebook-icon:hover {
     background-color: #3b5998;
